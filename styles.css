@@ -4,7 +4,7 @@
 } */
 
 html {
-    border-left: 5px solid lightgray;
+    /* border-left: 5px solid lightgray; ---instructions from hw*/
 }
 
 body {
@@ -12,6 +12,7 @@ body {
     font-family: sans-serif;
     max-width: 1000px;
     margin: auto;
+    border-left: 5px solid lightgray;
 }
 
 header, main, footer {
@@ -25,7 +26,7 @@ h1 {
     color: tomato;
 }
 
-image {
+img {
     width: 100%;
 }
 
@@ -69,7 +70,8 @@ article {
 p::first-letter {
     color:lightgray;
     font-size:5rem;
-    font-weight: bold;
+    font-weight: 500;
+    float: left;
 }
 
 .copy {
